@@ -1,22 +1,83 @@
 aid: tenex-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tenex-ai.png
 name: Tenex AI
-description: Tenex AI is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  TENEX.AI is an AI-native, human-led Managed Detection and Response (MDR) provider that
+  fuses agentic AI, automation, and elite human security analysts to run security operations
+  at scale. Its platform triages every alert and investigates every threat, orchestrating
+  workflows across 300+ security tools to deliver faster detection, high-fidelity triage,
+  and autonomous response with human guardrails for Fortune 500 and Global 2000 enterprises.
+  Backed by Andreessen Horowitz (a16z), Crosspoint Capital, and Shield Capital, TENEX.AI
+  operates as a managed cybersecurity service rather than a public developer API platform;
+  as of this enrichment pass it publishes no developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/tenex-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Crosspoint Capital
+- Shield Capital
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Cybersecurity
+- Security Operations
+- Managed Detection and Response
+- MDR
+- SOC
+- Artificial Intelligence
+- Agentic AI
+- Threat Detection
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tenex-ai-domain-security.yml
+- type: Website
+  url: https://tenex.ai/
+- type: LLMsTxt
+  url: llms/tenex-ai-llms.txt
+- type: About
+  url: https://tenex.ai/about-us/
+- type: Blog
+  url: https://tenex.ai/blog/
+- type: Resources
+  url: https://tenex.ai/resources/
+- type: News
+  url: https://tenex.ai/news/
+- type: Careers
+  url: https://tenex.ai/careers/
+- type: Support
+  url: https://tenex.ai/contact-us/
+- type: TermsOfService
+  url: https://tenex.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://tenex.ai/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tenex-ai/
+- type: Twitter
+  url: https://x.com/TENEXai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1

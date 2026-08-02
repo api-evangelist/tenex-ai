@@ -1,0 +1,21 @@
+{
+  "repo": "tenex-ai",
+  "feeds": [
+    {
+      "source": "https://tenex.ai/feed/",
+      "feed_url": "https://tenex.ai/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://tenex.ai/about-us/",
+      "feed_url": "https://tenex.ai/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}
